@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic Bold Italic'), local('CenturyGothic-BoldItalic'),
+        url('subset-CenturyGothic-BoldItalic.woff2') format('woff2'),
+        url('subset-CenturyGothic-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic Italic'), local('CenturyGothic-Italic'),
+        url('subset-CenturyGothic-Italic.woff2') format('woff2'),
+        url('subset-CenturyGothic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic'), local('CenturyGothic'),
+        url('subset-CenturyGothic.woff2') format('woff2'),
+        url('subset-CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic Bold'), local('CenturyGothic-Bold'),
+        url('subset-CenturyGothic-Bold.woff2') format('woff2'),
+        url('subset-CenturyGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
