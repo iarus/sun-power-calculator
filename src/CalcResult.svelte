@@ -1,7 +1,7 @@
 <script>
   export let powerСonsum;
   export let hoursDay;
-	export let sunDays;
+  export let sunDays;
   export let reservLvl;
   export let powerVolt;
 
