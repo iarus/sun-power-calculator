@@ -1,5 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
 import commonjs from '@rollup/plugin-commonjs';
+import clear from 'rollup-plugin-clear';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
@@ -40,6 +41,9 @@ export default {
     dir: 'public/build',
 	},
 	plugins: [
+    clear({
+      targets: ['public/build'],
+    }),
 		svelte({
 			compilerOptions: {
 				// enable run-time checks when not in production
