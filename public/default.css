@@ -71,6 +71,9 @@ a[href=''] { pointer-events: none; }
 .btn:focus { outline: none; }
 .btn.__dark { background: #180d03; }
 .page_container { padding: 0 15px; max-width: 1230px; margin: 0 auto; width: 100%; }
+.github_link { margin: 0.5em 1.5em 0.5em auto; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; text-decoration: none; color: #212121; }
+.github_link:hover { text-decoration: underline; }
+.github_link-img { width: 2em; margin: 0 0.5em 0 0; }
 
 @media (max-width:575px) {
 	.btn { padding: 0.6em 1.2em; }
