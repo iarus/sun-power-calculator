@@ -12,7 +12,6 @@
 Установить зависимости
 
 ```bash
-cd size-calc
 npm install
 ```
 
